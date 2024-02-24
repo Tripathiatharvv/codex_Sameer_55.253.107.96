@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+}
+@font-face {
+    font-family: font1;
+    src: url(HankenGrotesk-VariableFont_wght.ttf);
+}
+body{
+    font-family: font1;
+}
+.container{
+    width:50vw;
+    height: 80vh;
+    background: white;
+    padding: 10px;
+    justify-content: center;
+    margin-left: 50vh;
+        margin-top: 20vh;
+    background-color: red;
+    align-items:center;
+    justify-content: space-evenly    
+}
+.blue-part{ 
+    background-color: #6040FD;
+    display:flex;
+    height:40vh;
+    width: 270px;
+    align-items: center;
+    margin-bottom: 0px;
+    color: white;
+}
+#marks{
+    color: white;
+    font-weight: 600;
+}
+#totalmarks{
+    color:white;
+    opacity: 30%;
+}
+.container{
+    display: inline-flex;
+    height: 400px;
+
+}
+.white-part ul li{
+    border-radius: 1vh;
+}

@@ -3,32 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frontend Mentor | Results summary component</title>
-    <link rel="stylesheet" href="ninja.css">
+    <title>Frontend project</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
 </head>
 <body>
-    <div class="container">
-            <div class="blue-part">
-                <h1>Your Result</h1>
+    <div class="main">
+        <div class="container">
+            <div class="card1">
+                <h3>Your Result</h3>
                 <div class="circle">
-                    <h1 id ="marks">76</h1>
-                    <h6 id="totalmarks">of 100</h6>
+                    <h1 id="sam">76</h1>
+                    <h5 id="garvit">Out of 100</h5>
                 </div>
                 <h1 id="great">Great</h1>
-                <h6 id="para">You scored higher than 65% of the people who have taken these tests.</h6>
+                <h5 id="para">You scored higher than 65%<br> of the people who have taken <br>these tests.</h5>
             </div>
-            <div class="white-part" p>
-                <h2 style="top : -40vh;">Summary</h2>
-                <ul>
-                    <li  style="color : red;"> Reaction</li>
-                    <li style="color: yellow;"> Memory </li>
-                    <li style="color: green"> Verbal</li>
-                    <li style="color:blue">Visual </li>
-                </ul>
-                <button class="btn" style="border-radius: 20px; background-color:rgb(1, 1, 75) ; margin-top: 20vh;"> Continue</button>
+            <div class="card2" style="background-color: rgb(251, 251, 251)">
+                <h2 id="sum">Summary</h2>
+                <div class="rectangle1">
+                    <div class="iconhead">
+                        <i class="ri-lightbulb-flash-line"></i>
+                        <h3 id="kinley1">Reaction</h3>
+                    </div>
+                    <div class="marks1">
+                        <h3 class="rey">80 /100</h3>
+                    </div>
+                </div>
+                <div class="rectangle2">
+                    <div class="iconhead">
+                        <i class="ri-brain-line"></i>
+                        <h3 id="kinley2">Memory</h3>
+                    </div>
+                    <div class="marks1">
+                        <h3 class="rey">92 /100</h3>
+                    </div>
+                </div>
+                <div class="rectangle3">
+                    <div class="iconhead">
+                        <i class="ri-chat-1-line"></i>
+                        <h3 id="kinley3">Verbal</h3>
+                    </div>
+                        <h3 class="rey">61 /100</h3>
+                </div>
+                <div class="rectangle4">
+                    <div class="iconhead">
+                        <i class="ri-eye-line"></i>
+                        <h3 id="kinley4">Visual</h3>
+                    </div>
+                        <h3 class="rey">72 /100</h3>
+                </div>
+                <div id="button">
+                <button id="btn1">Continue</button>
+                </div>
             </div>
         </div>
-       
-    </div>  
+    </div>
 </body>
 </html>
